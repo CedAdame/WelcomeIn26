@@ -1,0 +1,1264 @@
+/* =====================================
+   Base Page Style
+===================================== */
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+
+    background: #f7f3ed;
+
+    color: #333;
+
+    overflow-x: hidden;
+
+}
+
+.longhorn-background {
+
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+
+}
+
+
+.horn {
+
+    position: absolute;
+
+    opacity: 0.12;
+
+}
+
+
+
+/* =====================================
+   Evenly Spaced UT Longhorn Pattern
+===================================== */
+
+
+/* Row 1 */
+
+.horn1 {
+    top:40px;
+    left:50px;
+    width:60px;
+}
+
+.horn2 {
+    top:70px;
+    left:300px;
+    width:100px;
+}
+
+.horn3 {
+    top:30px;
+    left:600px;
+    width:70px;
+}
+
+.horn4 {
+    top:90px;
+    right:120px;
+    width:120px;
+}
+
+
+/* Row 2 */
+
+.horn5 {
+    top:220px;
+    left:120px;
+    width:90px;
+}
+
+.horn6 {
+    top:250px;
+    left:420px;
+    width:130px;
+}
+
+.horn7 {
+    top:200px;
+    left:750px;
+    width:65px;
+}
+
+.horn8 {
+    top:280px;
+    right:100px;
+    width:100px;
+}
+
+
+/* Row 3 */
+
+.horn9 {
+    top:420px;
+    left:40px;
+    width:120px;
+}
+
+.horn10 {
+    top:450px;
+    left:300px;
+    width:70px;
+}
+
+.horn11 {
+    top:400px;
+    left:550px;
+    width:110px;
+}
+
+.horn12 {
+    top:470px;
+    right:220px;
+    width:80px;
+}
+
+
+/* Row 4 */
+
+.horn13 {
+    top:650px;
+    left:100px;
+    width:65px;
+}
+
+.horn14 {
+    top:620px;
+    left:350px;
+    width:120px;
+}
+
+.horn15 {
+    top:700px;
+    left:650px;
+    width:90px;
+}
+
+.horn16 {
+    top:600px;
+    right:80px;
+    width:130px;
+}
+
+
+/* Row 5 */
+
+.horn17 {
+    top:850px;
+    left:50px;
+    width:100px;
+}
+
+.horn18 {
+    top:900px;
+    left:300px;
+    width:60px;
+}
+
+.horn19 {
+    top:820px;
+    left:520px;
+    width:130px;
+}
+
+.horn20 {
+    top:880px;
+    right:250px;
+    width:75px;
+}
+
+
+/* Row 6 */
+
+.horn21 {
+    top:1100px;
+    left:120px;
+    width:90px;
+}
+
+.horn22 {
+    top:1050px;
+    left:400px;
+    width:120px;
+}
+
+.horn23 {
+    top:1150px;
+    left:700px;
+    width:70px;
+}
+
+.horn24 {
+    top:1080px;
+    right:100px;
+    width:110px;
+}
+
+
+/* Row 7 */
+
+.horn25 {
+    top:1300px;
+    left:50px;
+    width:70px;
+}
+
+.horn26 {
+    top:1350px;
+    left:300px;
+    width:130px;
+}
+
+.horn27 {
+    top:1280px;
+    left:600px;
+    width:90px;
+}
+
+.horn28 {
+    top:1400px;
+    right:180px;
+    width:120px;
+}
+
+
+/* Extra fillers */
+
+.horn29 {
+    top:550px;
+    left:850px;
+    width:60px;
+}
+
+.horn30 {
+    top:1000px;
+    left:850px;
+    width:100px;
+}
+/* =====================================
+   Extra Right Side Fillers
+===================================== */
+
+
+.horn31 {
+    top:150px;
+    right:450px;
+    width:85px;
+}
+
+
+.horn32 {
+    top:350px;
+    right:500px;
+    width:130px;
+}
+
+
+.horn33 {
+    top:520px;
+    right:650px;
+    width:70px;
+}
+
+
+.horn34 {
+    top:700px;
+    right:450px;
+    width:110px;
+}
+
+
+.horn35 {
+    top:900px;
+    right:600px;
+    width:65px;
+}
+
+
+.horn36 {
+    top:1050px;
+    right:450px;
+    width:125px;
+}
+
+
+.horn37 {
+    top:1200px;
+    right:650px;
+    width:80px;
+}
+
+
+.horn38 {
+    top:1400px;
+    right:500px;
+    width:100px;
+}
+
+
+.horn39 {
+    top:250px;
+    right:30px;
+    width:90px;
+}
+
+
+.horn40 {
+    top:750px;
+    right:20px;
+    width:140px;
+}
+header{
+
+background:#0064b1;
+
+color:white;
+
+padding:20px;
+
+text-align:center;
+
+}
+
+nav{
+
+margin-top:20px;
+
+}
+
+nav a{
+
+color:white;
+
+text-decoration:none;
+
+margin:15px;
+
+font-weight:bold;
+
+}
+
+main{
+
+max-width:900px;
+
+margin:auto;
+
+padding:30px;
+
+}
+
+.hero{
+
+background:white;
+
+padding:40px;
+
+border-radius:10px;
+
+text-align:center;
+
+}
+
+.button{
+
+background:#f58025;
+
+color:white;
+
+padding:15px 25px;
+
+border-radius:8px;
+
+text-decoration:none;
+
+display:inline-block;
+
+margin-top:20px;
+
+}
+
+.info{
+
+margin-top:40px;
+
+background:white;
+
+padding:30px;
+
+border-radius:10px;
+
+}
+
+form{
+
+background:white;
+
+padding:30px;
+
+border-radius:10px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+input,
+textarea{
+
+padding:10px;
+
+font-size:16px;
+
+}
+
+button{
+
+background:#0064b1;
+
+color:white;
+
+border:none;
+
+padding:15px;
+
+font-size:16px;
+
+cursor:pointer;
+
+}
+
+button:hover{
+
+background:#004b87;
+
+}
+
+footer{
+
+text-align:center;
+
+padding:20px;
+
+}
+.button-group{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+margin-bottom:25px;
+
+}
+
+.day-btn,
+.time-btn{
+
+background:#BF5700;
+
+color:white;
+
+border:none;
+
+padding:14px 20px;
+
+border-radius:10px;
+
+font-size:16px;
+
+cursor:pointer;
+
+transition:.2s;
+
+}
+
+.day-btn:hover,
+.time-btn:hover{
+
+background:#a14a00;
+
+transform:translateY(-2px);
+
+}
+
+.selected{
+
+background:#333 !important;
+
+color:white;
+
+}
+
+#timeButtons{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:12px;
+
+margin-bottom:30px;
+
+}
+
+.submitBtn{
+
+width:100%;
+
+margin-top:20px;
+
+}
+/* Resource Page Buttons */
+
+.resource-card a,
+main > a {
+
+    display: inline-block;
+
+    background-color: #BF5700; /* UT Burnt Orange */
+
+    color: white;
+
+    padding: 10px 18px;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    margin-top: 10px;
+
+    transition: 0.3s ease;
+
+}
+
+
+
+.resource-card a:hover,
+main > a:hover {
+
+    background-color: #8F3F00;
+
+    transform: translateY(-2px);
+
+}
+/* FAQ Page */
+
+.intro {
+
+    text-align: center;
+
+    font-size: 18px;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+.faq-card {
+
+    background-color: white;
+
+    border-left: 8px solid #BF5700;
+
+    padding: 20px;
+
+    margin: 20px auto;
+
+    max-width: 800px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+
+}
+
+
+
+.faq-card h2 {
+
+    color: #BF5700;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.faq-card p {
+
+    line-height: 1.6;
+
+}
+
+
+
+.faq-button {
+
+    display: inline-block;
+
+    background-color: #BF5700;
+
+    color: white;
+
+    padding: 12px 22px;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    margin-top: 15px;
+
+}
+
+
+
+.faq-button:hover {
+
+    background-color: #8F3F00;
+
+}
+/* =================================
+   UT Austin Resource Page Style
+   ================================= */
+
+
+body {
+
+    background-color: #f7f3ed;
+
+}
+
+
+
+/* Resource Intro */
+
+main > p {
+
+    max-width: 900px;
+
+    margin: 20px auto 40px;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    text-align: center;
+
+}
+
+
+
+/* Section Titles */
+
+main h2 {
+
+    color: #BF5700;
+
+    border-bottom: 3px solid #BF5700;
+
+    padding-bottom: 8px;
+
+    margin-top: 45px;
+
+    font-size: 28px;
+
+}
+
+
+
+/* Resource Cards */
+
+.resource-card {
+
+    background-color: white;
+
+    max-width: 850px;
+
+    margin: 25px auto;
+
+    padding: 25px;
+
+    border-radius: 4px;
+
+    border-top: 6px solid #BF5700;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+
+}
+
+
+
+/* Card Titles */
+
+.resource-card h3 {
+
+    color: #333333;
+
+    font-size: 22px;
+
+    margin-bottom: 12px;
+
+}
+
+
+
+/* Card Text */
+
+.resource-card p {
+
+    line-height: 1.6;
+
+    color: #444;
+
+}
+
+
+
+/* UT Buttons */
+
+.resource-card a {
+
+    display: inline-block;
+
+    background-color: #BF5700;
+
+    color: white;
+
+    padding: 12px 22px;
+
+    margin-top: 15px;
+
+    border-radius: 3px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    transition: 0.25s;
+
+}
+
+
+
+.resource-card a:hover {
+
+    background-color: #8F3F00;
+
+    transform: translateY(-2px);
+
+}
+
+
+
+/* Header Upgrade */
+
+header {
+
+    background-color: #BF5700;
+
+    color: white;
+
+    padding: 30px;
+
+    text-align: center;
+
+}
+
+
+
+header h1 {
+
+    font-size: 38px;
+
+    letter-spacing: 1px;
+
+}
+
+
+
+header a {
+
+    color: white;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+
+
+header a:hover {
+
+    text-decoration: underline;
+
+}
+.time-btn.booked {
+
+
+    background-color: #b3b3b3;
+
+    color: #555;
+
+    cursor: not-allowed;
+
+    opacity: 0.7;
+
+
+}
+
+
+
+.time-btn.booked:hover {
+
+
+    transform:none;
+
+
+}
+.time-btn.booked {
+
+    background-color: #b8b8b8;
+
+    color: #666;
+
+    cursor: not-allowed;
+
+    opacity: 0.75;
+
+}
+
+
+.time-btn.booked:hover {
+
+    transform: none;
+
+}
+.time-btn.booked {
+
+    background-color: #999;
+
+    color: white;
+
+    cursor: not-allowed;
+
+    opacity: .7;
+
+}
+
+
+.time-btn.booked:hover {
+
+    transform:none;
+
+}
+/* =====================================
+   TEXAS HEADER DESIGN
+===================================== */
+
+
+.main-header {
+
+    position:relative;
+
+    background:#BF5700;
+
+    color:white;
+
+    padding:35px;
+
+    text-align:center;
+
+    overflow:hidden;
+
+}
+
+
+
+/* Cowboy Images */
+
+
+.cowboy {
+
+    position:absolute;
+
+    bottom:0;
+
+    width:180px;
+
+    z-index:2;
+
+}
+
+
+
+.cowboy-left {
+
+    left:20px;
+
+}
+
+
+
+.cowboy-right {
+
+    right:20px;
+
+    transform:scaleX(-1);
+
+}
+
+
+
+/* Keep text above decorations */
+
+
+.main-header h1,
+.main-header p,
+.main-header nav {
+
+    position:relative;
+
+    z-index:3;
+
+}
+
+
+
+/* Longhorn Header Decorations */
+
+
+.header-longhorns {
+
+    position:absolute;
+
+    inset:0;
+
+    z-index:1;
+
+}
+
+
+
+.header-longhorns img {
+
+    position:absolute;
+
+    width:18px;
+
+    opacity:.45;
+
+}
+
+
+
+/* Random placement */
+
+
+/* =====================================
+   60 Small Longhorn Header Decorations
+===================================== */
+
+
+.header-longhorns img:nth-child(1){top:10px;left:3%;}
+.header-longhorns img:nth-child(2){top:45px;left:8%;}
+.header-longhorns img:nth-child(3){top:90px;left:12%;}
+.header-longhorns img:nth-child(4){top:25px;left:18%;}
+.header-longhorns img:nth-child(5){top:110px;left:22%;}
+
+.header-longhorns img:nth-child(6){top:60px;left:28%;}
+.header-longhorns img:nth-child(7){top:15px;left:35%;}
+.header-longhorns img:nth-child(8){top:100px;left:40%;}
+.header-longhorns img:nth-child(9){top:40px;left:46%;}
+.header-longhorns img:nth-child(10){top:120px;left:52%;}
+
+
+.header-longhorns img:nth-child(11){top:25px;left:58%;}
+.header-longhorns img:nth-child(12){top:80px;left:63%;}
+.header-longhorns img:nth-child(13){top:15px;left:70%;}
+.header-longhorns img:nth-child(14){top:110px;left:75%;}
+.header-longhorns img:nth-child(15){top:50px;left:82%;}
+
+
+.header-longhorns img:nth-child(16){top:20px;left:90%;}
+.header-longhorns img:nth-child(17){top:100px;left:95%;}
+.header-longhorns img:nth-child(18){top:130px;left:6%;}
+.header-longhorns img:nth-child(19){top:140px;left:18%;}
+.header-longhorns img:nth-child(20){top:150px;left:30%;}
+
+
+.header-longhorns img:nth-child(21){top:135px;left:45%;}
+.header-longhorns img:nth-child(22){top:150px;left:58%;}
+.header-longhorns img:nth-child(23){top:140px;left:70%;}
+.header-longhorns img:nth-child(24){top:155px;left:85%;}
+.header-longhorns img:nth-child(25){top:75px;left:50%;}
+
+
+/* Second layer */
+
+.header-longhorns img:nth-child(26){top:35px;left:15%;}
+.header-longhorns img:nth-child(27){top:75px;left:25%;}
+.header-longhorns img:nth-child(28){top:55px;left:38%;}
+.header-longhorns img:nth-child(29){top:95px;left:55%;}
+.header-longhorns img:nth-child(30){top:30px;left:65%;}
+
+
+.header-longhorns img:nth-child(31){top:125px;left:78%;}
+.header-longhorns img:nth-child(32){top:65px;left:88%;}
+.header-longhorns img:nth-child(33){top:160px;left:10%;}
+.header-longhorns img:nth-child(34){top:170px;left:25%;}
+.header-longhorns img:nth-child(35){top:165px;left:40%;}
+
+
+.header-longhorns img:nth-child(36){top:175px;left:55%;}
+.header-longhorns img:nth-child(37){top:160px;left:68%;}
+.header-longhorns img:nth-child(38){top:170px;left:82%;}
+.header-longhorns img:nth-child(39){top:190px;left:5%;}
+.header-longhorns img:nth-child(40){top:190px;left:92%;}
+
+
+.header-longhorns img:nth-child(41){top:5px;left:25%;}
+.header-longhorns img:nth-child(42){top:5px;left:75%;}
+.header-longhorns img:nth-child(43){top:220px;left:15%;}
+.header-longhorns img:nth-child(44){top:220px;left:35%;}
+.header-longhorns img:nth-child(45){top:220px;left:60%;}
+
+
+.header-longhorns img:nth-child(46){top:220px;left:80%;}
+.header-longhorns img:nth-child(47){top:250px;left:10%;}
+.header-longhorns img:nth-child(48){top:250px;left:30%;}
+.header-longhorns img:nth-child(49){top:250px;left:50%;}
+.header-longhorns img:nth-child(50){top:250px;left:70%;}
+
+
+.header-longhorns img:nth-child(51){top:280px;left:20%;}
+.header-longhorns img:nth-child(52){top:280px;left:40%;}
+.header-longhorns img:nth-child(53){top:280px;left:60%;}
+.header-longhorns img:nth-child(54){top:280px;left:85%;}
+.header-longhorns img:nth-child(55){top:300px;left:12%;}
+
+
+.header-longhorns img:nth-child(56){top:300px;left:35%;}
+.header-longhorns img:nth-child(57){top:300px;left:55%;}
+.header-longhorns img:nth-child(58){top:300px;left:75%;}
+.header-longhorns img:nth-child(59){top:320px;left:45%;}
+.header-longhorns img:nth-child(60){top:320px;left:90%;}
+
+
+.header-longhorns img:nth-child(n+16){
+
+    top:130px;
+
+}
+
+
+/* =====================================
+   BACK HOME BUTTON
+===================================== */
+
+
+.back-btn {
+
+    position:relative;
+
+    z-index:5;
+
+    display:inline-block;
+
+    background:#BF5700;
+
+    color:white;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    margin-top:15px;
+
+    border:2px solid white;
+
+    transition:.3s ease;
+
+}
+
+
+
+.back-btn:hover {
+
+    background:white;
+
+    color:#BF5700;
+
+    transform:translateY(-3px);
+
+}
+/* =====================================
+   COWBOY HEADER DESIGN
+===================================== */
+
+
+.main-header {
+
+    position:relative;
+
+    background:#BF5700;
+
+    color:white;
+
+    padding:45px;
+
+    text-align:center;
+
+    overflow:hidden;
+
+}
+
+
+
+/* Cowboys */
+
+.cowboy {
+
+    position:absolute;
+
+    bottom:0;
+
+    width:170px;
+
+    z-index:3;
+
+}
+
+
+
+.cowboy-left {
+
+    left:40px;
+
+}
+
+
+
+.cowboy-right {
+
+    right:40px;
+
+    transform:scaleX(-1);
+
+}
+
+
+
+
+
+/* Longhorn header decorations */
+
+.header-longhorns {
+
+    position:absolute;
+
+    inset:0;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    align-content:center;
+
+    gap:8px;
+
+    opacity:.45;
+
+    z-index:1;
+
+}
+
+
+
+.header-longhorns img {
+
+    width:22px;
+
+    height:22px;
+
+    object-fit:contain;
+
+}
+
+
+
+
+/* Title above decorations */
+
+.main-header h1 {
+
+    position:relative;
+
+    z-index:5;
+
+    font-size:40px;
+
+}
+
+
+
+
+/* Back button */
+
+.back-btn {
+
+    position:relative;
+
+    z-index:5;
+
+    display:inline-block;
+
+    background:white;
+
+    color:#BF5700;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+
+
+.back-btn:hover {
+
+    background:#333;
+
+    color:white;
+
+}

@@ -1283,7 +1283,7 @@ header a:hover {
     display: inline-block;
     padding: 7px;
     background: #BF5700;
-    border: 3px solid white;
+    border: 4px solid white;
     outline: 3px solid #BF5700;
     border-radius: 15px;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
@@ -1298,23 +1298,3 @@ header a:hover {
     border-radius: 10px;
 }
 
-.photo-frame::before,
-.photo-frame::after {
-    content: "";
-    position: absolute;
-    font-size: 18px;
-    background: white;
-    border-radius: 50%;
-    padding: 2px;
-    z-index: 2;
-}
-
-.photo-frame::before {
-    top: -14px;
-    left: -14px;
-}
-
-.photo-frame::after {
-    bottom: -14px;
-    right: -14px;
-}

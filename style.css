@@ -1262,3 +1262,59 @@ header a:hover {
     color:white;
 
 }
+
+/* =========================================
+   FIG MENTOR PHOTO
+========================================= */
+
+.mentor-photo {
+    text-align: center;
+    margin: 20px auto 25px;
+}
+
+.mentor-photo h3 {
+    font-size: 22px;
+    color: #BF5700;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.photo-frame {
+    display: inline-block;
+    padding: 7px;
+    background: #BF5700;
+    border: 3px solid white;
+    outline: 3px solid #BF5700;
+    border-radius: 15px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.photo-frame img {
+    display: block;
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.photo-frame::before,
+.photo-frame::after {
+    content: "🤘";
+    position: absolute;
+    font-size: 18px;
+    background: white;
+    border-radius: 50%;
+    padding: 2px;
+    z-index: 2;
+}
+
+.photo-frame::before {
+    top: -14px;
+    left: -14px;
+}
+
+.photo-frame::after {
+    bottom: -14px;
+    right: -14px;
+}

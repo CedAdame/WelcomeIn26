@@ -1300,7 +1300,7 @@ header a:hover {
 
 .photo-frame::before,
 .photo-frame::after {
-    content: "🤘";
+    content: "";
     position: absolute;
     font-size: 18px;
     background: white;
